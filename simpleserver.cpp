@@ -9,7 +9,7 @@
 
 SimpleTCPServer::SimpleTCPServer(){
 	
-	sock = socket( AF_INET6, SOCK_STREAM, 0 );
+	sock = socket( AF_INET, SOCK_STREAM, 0 );
 	
 	if( sock < 0 ){
 		std::cerr << "[SimpleTCPServer] Error creating socket." << std::endl;
