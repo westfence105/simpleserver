@@ -5,7 +5,7 @@
 
 
 int main( int argc, char** argv ){
-	
+
 	std::shared_ptr<SimpleTCPServer> server = std::make_shared<SimpleTCPServer>();
 	
 	
